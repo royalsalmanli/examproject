@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    list-style-type: none;
+}
+.items-home span{
+    color: #929292;
+}
+
+
+
+
+
+.nav-items{
+    color: #080808;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 25px;
+    transition: .3s;
+}
+
+
+.nav-items:hover{
+    color: #929292;
+}
+
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-menu{
+    display: flex;
+}
+
+
+
+
+.logo{
+    margin-right: 95px;
+}
+
+
+.logo img{
+    width: 115px;
+}
+
+.cart{
+    margin-right: 25px;
+}
+
+
+.cartSpn{
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1em;
+    color: #080808;
+    font-weight: 700;
+}
+
+.cartSpn-price{
+    font-size: 12px;
+    line-height: 1;
+    font-family: Montserrat,sans-serif;
+    color: #929292;
+    margin-left: 5px;
+}
+
+
+.favourite{
+    margin-right: 15px;
+}
+
+.favourite i{
+    color: #080808;
+    font-size: 13px;
+    transition: .3s;
+}
+
+.favourite i:hover{
+    color: #929292;
+}
+
+
+.favourite-value{
+    color: #929292;
+}
+
+
+
+.main-login{
+    margin: 0 10px;
+}
+
+.login-user{
+    transition: .3s;
+}
+
+.login-user:hover{
+    color: #929292;
+}
+
+.mainLogin-login{
+    color: #080808;
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+    transition: .3s;
+}
+
+
+.mainLogin-login:hover{
+    color: #929292;
+}
+
+.main-login-item{
+    transition: .3s;
+}
+
+
+.main-login-item:hover{
+    color: #929292;
+}
+
+
+.main-search{
+    margin-right: 10px;
+}
+
+
+.main-search i{
+    cursor: pointer;
+    color: #080808;
+    font-size: 13px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.main-search i:hover{
+    color: #929292;
+}
+
+.mainMenu i{
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.mainMenu:hover{
+    color: #929292;
+}
+
+
+.cards-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+
+}
+
+
+.cards-nav-ul{
+    display: flex;
+}
+.items-home{
+    color: #080808;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+
+
+
+.cards-nav-items{
+    color: #929292;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    transition: 3s;
+    
+
+}
+.cards-nav-items:hover{
+    color: #080808;
+}
+
+
+.filter{
+    display: flex;
+    position: relative;
+}
+
+.filter-text{
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.2rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: Catamaran,sans-serif;
+    position: absolute;
+    left: 58px;
+    top: -7px;
+}
+
+
+/* #filter-select{
+    border: none;
+    margin-bottom: 22px;
+} */
+#filter-select{
+    content: "\43";
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 0;
+    margin-left: 8px;
+    text-transform: uppercase;
+    line-height: 2.2em;
+    cursor: pointer
+
+}
+
+.products-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.cards{
+    position: relative;
+    width: 250px;
+    margin: 40px 25px;
+}
+
+
+.cards img{
+    width: 300px;
+}
+
+.wall-clock{
+    height: 300px;
+}
+
+.cards-new{
+    position: absolute;
+    right: auto;
+    left: 20px;
+    display: block;
+    top: 15px;
+    width: auto;
+    color: #080808;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 100;
+    transform: translateZ(0);
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+
+.cards-percentage{
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 20px;
+    width: auto;
+    color: #080808;
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 100;
+    transform: translateZ(0);
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.cards-texts a{
+    color: #080808;
+}
+
+
+.cards-texts{
+    width: 300px;
+}
+
+.cards-text{
+    font-family: Catamaran,sans-serif;
+    font-weight: inherit;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.cards-priceDiv{
+    text-align: center;
+}
+
+.cards-price{
+    color: #999;
+    font-size: 14px;
+    font-family: Montserrat,sans-serif;
+    opacity: 1;
+    /* transition: all .3s ease; */
+    will-change: transform;
+    line-height: 25px;
+    /* margin-left: 140px; */
+}
+
+
+footer{
+    width: 100%;
+    height: 15rem;
+   
+}
+
+
+.f-navs{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 217px;
+    margin-right: 34px;
+
+}
+
+
+.f1-headertext{
+    color: #080808;
+    letter-spacing: .1em;
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 13px;
+}
+
+
+.f-items{
+    color: #b5b5b5;
+    padding-left: 17px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.f2-headertext{
+    color: #080808;
+    letter-spacing: .1em;
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 13px;
+}
+
+.f3-headertext{
+    color: #080808;
+    letter-spacing: .1em;
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 13px;
+}
+
+.f4-headertext{
+    color: #080808;
+    letter-spacing: .1em;
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 13px;
+}
+
+
+.f5 {
+    width: 90%;
+    height: 5rem;
+    margin: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.f6{
+
+    color: lightgrey;
+}
+
+
+.f7{
+    display: flex;
+}
+
+
+.f7 i{
+margin-left: 1rem
+}
+
+.f7 p {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px solid rgba(206,206,206,.2);
+    color: rgba(32, 32, 32, 0.2);
+}
